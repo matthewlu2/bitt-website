@@ -1,0 +1,55 @@
+.navbar{
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 1%;
+    background-color: rgba(87, 87, 87, 0.573);
+}
+
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo{
+    width: 35px;
+    margin: 3px 10px;
+    cursor: pointer;
+}
+
+ul{
+    flex: 1;    
+    list-style: none;
+    text-align: left;
+}
+
+ul li{
+    display: inline-block;
+    margin: 6px 17px;
+    font-size: 14px;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+a img{
+    display: flex;
+    margin-inline: 18px;
+}
+
+.twitter{
+    width: 20px;
+}
+
+.instagram{
+    width: 19px;
+}
+
+.youtube{
+    width: 20px;
+}
+
+@media (max-width: 532px) {
+    a img {display: none;}
+}

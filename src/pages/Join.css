@@ -1,0 +1,242 @@
+.join {
+    width: 100%;
+    background-color: rgb(255, 255, 255);   
+    min-height: 100vh;
+}
+
+.slider-container {
+    float: left;
+    width: 960px;
+    height: 540px; 
+    margin-left: 2.5rem;
+    margin-top: 5rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color:  rgba(0 , 79 , 155, 1)!important;
+}
+
+.card {
+    width: 960px;
+    height: 540px;  
+}
+
+.footer-join {
+    position: absolute;
+    bottom: -2.5em;
+    width: 100%;
+    height: 2.5rem; 
+}
+
+.group{
+    display: flex;
+    width: 100%;
+}
+
+.writeup {
+    float: right;
+    max-width: 32.5%;
+    max-height: 700px;
+    /*border: red 1px solid;*/
+}
+
+.writeup h1{
+    margin-top: 24%;
+    margin-left: 50px;
+    font-size: 2.5vw;
+}
+
+.writeup h2 {
+    margin-top: 22px;
+    margin-left: 50px;
+    font-size: 2.5vw;    
+}
+
+.writeup p{
+    font-size: 1.3vw;
+    margin-left: 50px;
+}
+
+.p1{
+    margin-top: 10px;
+}
+
+.p2{
+    margin-top: 10px;
+}
+
+.button-container-join{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    bottom: 3.5em;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.button{
+    background: rgba(0 , 79 , 155, 1);
+    height: 40px;
+    line-height: 20px;
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1em;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media (max-width: 1324px) {
+    .slider-container {
+        float: left;
+        max-width: 859px;
+        max-height: 483px; 
+        margin-left: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    .card {
+      max-width: 859px;
+      max-height: 483px;  
+    }
+}
+
+@media (max-width: 1220px) {
+    .slider-container {
+        float: left;
+        max-width: 679px;
+        max-height: 382px; 
+        margin-left: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    .card {
+      max-width: 679px;
+      max-height: 382px;  
+    }
+}
+
+@media (max-width: 999px) {
+    .slider-container {
+        float: left;
+        max-width: 526px;
+        max-height: 296px; 
+        margin-left: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    .card {
+        max-width: 526px;
+        max-height: 296px;  
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 792px) {
+    .join {
+        width: 100%;
+        background-color: rgb(255, 255, 255);   
+        min-height: 100vh;
+    }
+    
+    .slider-container {
+        max-width: 679px;
+        max-height: 382px; 
+        margin-left: 2.5rem;
+        margin-top: 5rem;
+    }
+    
+    .slick-prev:before,
+    .slick-next:before {
+      color:  rgba(0 , 79 , 155, 1)!important;
+    }
+    
+    .card {
+        max-width: 679px;
+        max-height: 382px; 
+    }
+    
+    .footer-join {
+        position: absolute;
+        bottom: -2.5em;
+        width: 100%;
+        height: 2.5rem; 
+    }
+    
+    .group{
+        display: block;
+        width: 100%;
+    }
+    
+    .writeup {
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        border: red 1px solid;
+    }
+    
+    .writeup h1{
+        margin-left: 50px;
+        font-size: 2.5vw;
+    }
+    
+    .writeup h2 {
+        margin-left: 50px;
+        font-size: 2.5vw;    
+    }
+    
+    .writeup p{
+        font-size: 1.3vw;
+        margin-left: 50px;
+    }
+    
+    .p1{
+        margin-top: 10px;
+    }
+    
+    .p2{
+        margin-top: 10px;
+    }
+    
+    .button-container-join{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        position: absolute;
+        bottom: 3.5em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .button{
+        background: rgba(0 , 79 , 155, 1);
+        height: 40px;
+        line-height: 20px;
+        width: 150px;
+        border: none;
+        color: white;
+        padding: 0.5em 1em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 1em;
+        font-size: 20px;
+        font-weight: normal;
+    }
+}
+

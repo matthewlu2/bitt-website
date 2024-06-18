@@ -1,0 +1,100 @@
+.roster{
+    width: 100%;
+    background-color: white;
+}
+
+.background-image h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 3rem;
+    text-wrap: wrap;
+}
+
+.background-image {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("../assets/bittaco.jpg");
+    background-size: cover;
+    background-position: bottom -7em right 0px;
+    overflow-x: hidden;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding-top: 1.5%;
+    row-gap: 0.5%;
+    padding-bottom: 13rem;
+}
+
+@media (max-width: 1395px) {
+    .background-image {
+      background-position: bottom 0px right 0px;
+    }
+}
+
+@media (max-width: 1317px) {
+    .content{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-items: center;
+      padding-top: 1.5%;
+      row-gap: 0.5%;
+      padding-bottom: 20rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content{
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      justify-items: center;
+      padding-top: 1.5%;
+      row-gap: 0.5%;
+      padding-bottom: 40rem;
+    }
+}
+
+@media (max-width: 716px) {
+    .background-image h1{
+      font-size: 2.5rem;
+      padding-top: 2rem;
+    }
+}
+
+@media (max-width: 659px) {
+    .content{
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+      justify-items: center;
+      padding-top: 1.5%;
+      row-gap: 0.5%;
+      padding-bottom: 153rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .background-image h1{
+      font-size: 2rem;
+      padding-top: 2rem;
+    }
+}
+
+@media (max-width: 407px) {
+    .background-image h1{
+      font-size: 1.5rem;
+      padding-top: 2rem;
+      text-wrap: wrap;
+    }
+}
+
+
+
+
