@@ -94,7 +94,59 @@
     font-weight: normal;
 }
 
-@media (max-width: 1324px) {
+@media (max-width: 2000px) {
+    .writeup {
+        float: right;
+        max-width: 32.5%;
+        max-height: 700px;
+        /*border: red 1px solid;*/
+    }
+    
+    .writeup h1{
+        margin-top: 11%;
+        margin-left: 6rem;
+        font-size: 2.3vw;
+    }
+    
+    .writeup h2 {
+        margin-top: 22px;
+        margin-left: 6rem;
+        font-size: 2.3vw;    
+    }
+    
+    .writeup p{
+        font-size: 1.2vw;
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 1800px) {
+    .writeup {
+        float: right;
+        max-width: 32.5%;
+        max-height: 700px;
+        /*border: red 1px solid;*/
+    }
+    
+    .writeup h1{
+        margin-top: 19%;
+        margin-left: 6rem;
+        font-size: 2.3vw;
+    }
+    
+    .writeup h2 {
+        margin-top: 22px;
+        margin-left: 6rem;
+        font-size: 2.3vw;    
+    }
+    
+    .writeup p{
+        font-size: 1.2vw;
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 1392px) {
     .slider-container {
         float: left;
         max-width: 859px;
@@ -107,9 +159,15 @@
       max-width: 859px;
       max-height: 483px;  
     }
+
+    .writeup h1{
+        margin-top: 29%;
+        margin-left: 6rem;
+        font-size: 2.3vw;
+    }
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1228px) {
     .slider-container {
         float: left;
         max-width: 679px;
@@ -121,6 +179,12 @@
     .card {
       max-width: 679px;
       max-height: 382px;  
+    }
+
+    .writeup h1{
+        margin-top: 24%;
+        margin-left: 6rem;
+        font-size: 2.3vw;
     }
 }
 
@@ -138,12 +202,6 @@
         max-height: 296px;  
     }
 }
-
-
-
-
-
-
 
 @media (max-width: 792px) {
     .join {
@@ -185,7 +243,7 @@
         max-width: 100%;
         text-align: center;
         justify-content: center;
-        border: red 1px solid;
+        /*border: red 1px solid;*/
     }
     
     .writeup h1{
@@ -240,3 +298,98 @@
     }
 }
 
+@media (max-width: 450px) {
+    .join {
+        width: 100%;
+        background-color: rgb(255, 255, 255);   
+        min-height: 100vh;
+    }
+    
+    .slider-container {
+        width: 294px;
+        height: 165px; 
+        margin-top: 10px; 
+        margin-left: 40px;
+    }
+    
+    .slick-prev:before,
+    .slick-next:before {
+      color:  rgba(0 , 79 , 155, 1)!important;
+    }
+    
+    .card {
+        width: 294px;
+        height: 165px;  
+    }
+    
+    .footer-join {
+        position: absolute;
+        bottom: -2.5em;
+        width: 100%;
+        height: 2.5rem; 
+    }
+    
+    .group{
+        display: block;
+        width: 100%;
+    }
+    
+    .writeup {
+        margin-top: 40px;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .writeup h1{
+        font-size: 17px;
+        margin: auto;
+    }
+    
+    .writeup h2 {
+        padding-top: 20px;
+        font-size: 17px; 
+        margin: auto;
+    }
+    
+    .writeup p{
+        font-size: 15px;
+        margin: auto;
+    }
+    
+    .p1{
+        margin-top: 10px;
+    }
+    
+    .p2{
+        margin-top: 10px;
+    }
+    
+    .button-container-join{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        position: absolute;
+        bottom: 3.5em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .button{
+        background: rgba(0 , 79 , 155, 1);
+        height: 40px;
+        line-height: 20px;
+        width: 150px;
+        border: none;
+        color: white;
+        padding: 0.5em 1em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 1em;
+        font-size: 20px;
+        font-weight: normal;
+    }
+}

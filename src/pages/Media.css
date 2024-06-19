@@ -56,9 +56,9 @@
 }
 
 @media (max-width: 1510px) {
-    .video {
-        box-shadow: none;
-    }
+        .video {
+            box-shadow: none;
+        }
 }   
 
 @media (max-width: 1469px) {
@@ -96,6 +96,13 @@
         margin: left;
         margin-left: 30px;
         box-shadow: 0px 10px 8px #999;
+    }
+}
+
+@media (max-width: 793px) {
+    .video {
+        box-shadow: none;
+        margin-bottom: 30px;
     }
 }
 

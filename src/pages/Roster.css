@@ -78,6 +78,10 @@
       row-gap: 0.5%;
       padding-bottom: 153rem;
     }
+
+    .background-image{
+      background-position: center;
+    }
 }
 
 @media (max-width: 490px) {

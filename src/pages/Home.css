@@ -84,5 +84,9 @@
     .pitt {display: none;}
     .bitt-text {display: none;}
     .bitt {display: none;}
+
+    .background{
+        background-position: center;
+    }
 }
 
