@@ -104,7 +104,7 @@ export default function Join(){
               scale: 0.9
             }}      
           >
-          <a href = "https://discord.gg/e8TkkPCWJh" target = "_blank" rel = "noreferrer">
+          <a href ="mailto:pitt.b.ultimate@gmail.com" target = "_blank" rel = "noreferrer">
             <button className="button">Join</button>
           </a>
           </motion.div>
