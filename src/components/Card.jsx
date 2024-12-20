@@ -9,7 +9,7 @@ export const Card = ({
 
   return (
     <div className = "card-container">
-        {imgSrc && imgAlt && <img src = {imgSrc} alt = {imgAlt} className='card-image'/>}
+        {imgSrc && imgAlt && <img src = {imgSrc} alt = {imgAlt} loading = "lazy" className='card-image'/>}
         {title && <h1 className='card-title'>{title}</h1>}
     </div>
   )
