@@ -12,11 +12,11 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
 
 
-import ajp from "../assets/ajp.png"
-import highfives from "../assets/highfives.png"
-import endofregionals from "../assets/endofregionals.png"
-import four from "../assets/four.png"
-import together from "../assets/together.png"
+import ajp from "../assets/join/ajp.jpg"
+import highfives from "../assets/join/highfives.jpg"
+import endofregionals from "../assets/join/endofregionals.jpg"
+import four from "../assets/join/four.jpg"
+import together from "../assets/join/together.jpg"
 
 
 export default function Join(){
